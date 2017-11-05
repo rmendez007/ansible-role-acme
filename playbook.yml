@@ -1,0 +1,12 @@
+---
+- hosts: ub-nas-01
+  tasks:
+  - copy:
+      src: webfile.rb
+      dest:  /home/carlsjr/prod/temp/folder/web1conf.rb
+      owner: carlsjr
+      group: carlsjr
+
+  - name: restart ruby
+    command: touch /home/carlsjr/prod/temp/restart.txt
+    

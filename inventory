@@ -1,0 +1,1 @@
+ub-nas-01 ansible_host=192.168.1.106 ansible_python_interpreter=/usr/bin/python2.7
