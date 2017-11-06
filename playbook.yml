@@ -3,10 +3,10 @@
   tasks:
   - copy:
       src: webfile.rb
-      dest:  /home/carlsjr/prod/temp/folder/web1conf.rb
-      owner: carlsjr
-      group: carlsjr
+      dest:  /home/muster/prod/temp/folder/web1conf.rb
+      owner: muster
+      group: muster
 
   - name: restart ruby
-    command: touch /home/carlsjr/prod/temp/restart.txt
+    command: touch /home/muster/prod/temp/restart.txt
     
